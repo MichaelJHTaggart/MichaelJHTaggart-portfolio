@@ -41,3 +41,5 @@ I have built a few portfolio's, but I wanted one that really showed my skills as
 
 - May 3, 2022:
  - Initial Setup: 30 min
+- May 4, 2022:
+ - MP-10 completed: 2 h 40 min
