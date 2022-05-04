@@ -1,47 +1,47 @@
-# Getting Started with Create React App
+# MichaelJHTaggart's Portfolio Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Deck
 
-### `npm start`
+Language:
+- Typescript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Framework/Library:
+- React
+- Redux Toolkit
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Style/Design:
+- Ant Design
+- Tailwind CSS
 
-### `npm test`
+Server:
+- Firebase Auth
+- Firebase Firestore
+- Firebase Storage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Hosting:
+- Firebase Hosting
 
-### `npm run build`
+Tech/APIs:
+- Stripe API
+- Socket.io
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Why?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I have built a few portfolio's, but I wanted one that really showed my skills as a web developer. I wanted a portfolio that didn't only serve as a place for recruiters to stop by and be wowed by my skills, but I thought this should also be a place where people can actually see what I do, and can pay for my services. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Wireframing, Component & Feature planning all designed on Figma
 
-### `npm run eject`
+[Homepage Design on Figma](https://www.figma.com/proto/PylFPG95AnYZ78NPLPKWhI/Mobile-Wireframe?node-id=3%3A5&scaling=scale-down&page-id=0%3A1)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Project page Design on Figma](https://www.figma.com/proto/PylFPG95AnYZ78NPLPKWhI/Mobile-Wireframe?node-id=116%3A88&scaling=scale-down&page-id=108%3A3)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Shopping page Design on Figma](https://www.figma.com/proto/PylFPG95AnYZ78NPLPKWhI/Mobile-Wireframe?node-id=116%3A70&scaling=scale-down&page-id=108%3A2)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Checkout my Component & Feature Planning on Figma](https://www.figma.com/file/HNJW3AaeYDgscIfiuuBQ0D/Component-Tree-for-Portfolio)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# MichaelJHTaggart-portfolio
+- May 3, 2022:
+ - Initial Setup: 30 min
