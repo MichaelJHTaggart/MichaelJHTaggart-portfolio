@@ -9,7 +9,7 @@ Framework/Library:
 - Redux Toolkit
 
 Style/Design:
-- Ant Design
+~~- Ant Design~~ Had to remove as the css was messing with the tailwind css. I will have to build my own animations. 
 - Tailwind CSS
 
 Server:
@@ -43,3 +43,8 @@ I have built a few portfolio's, but I wanted one that really showed my skills as
  - Initial Setup: 30 min
 - May 4, 2022:
  - MP-10 completed: 2 h 40 min
+- May 5, 2022:
+ - MP-25 in-progress: 1 h 10 min (Ant Design && Tailwind not style friendly)
+- May 6, 2022: 
+ - MP-25 in-progress: 2 h (Committed to building project in Tailwind, no Ant-Design, no SASS) 
+ - MP-25 completed: 2 h (Playing with animation!)

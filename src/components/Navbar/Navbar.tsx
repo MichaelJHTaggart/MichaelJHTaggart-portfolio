@@ -1,9 +1,11 @@
-import { useState } from 'react';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
+import { useDispatch, useSelector } from 'react-redux';
+import { setNavbar } from '../../store/actions/navbar';
+import { selectNavbarState } from '../../store/selectors/navbar';
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
+  const dispatch = useDispatch();
+  const {isOpen} = useSelector(selectNavbarState)
   return (
     <div className="flex shadow-md justify-around items-center">
       <img
@@ -16,7 +18,7 @@ export const Navbar = () => {
         <span className="animate-turn-0">
           <MenuOutlined
             className="transition ease-in-out delay-150 hover:-translate-y+1 hover:scale-110 duration-300"
-            onClick={() => setIsOpen(true)}
+            onClick={() => dispatch(setNavbar(true))}
             style={{ fontSize: '44px' }}
           />
         </span>
@@ -24,7 +26,7 @@ export const Navbar = () => {
         <span className="animate-turn-90">
           <CloseOutlined
             className="transition ease-in-out delay-150 hover:-translate-y+1 hover:scale-110 duration-300"
-            onClick={() => setIsOpen(false)}
+            onClick={() => dispatch(setNavbar(false))}
             style={{ fontSize: '44px' }}
           />
         </span>
