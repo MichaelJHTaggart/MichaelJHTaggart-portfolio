@@ -14,6 +14,9 @@ onMouseEnter = change picture to this thingy
 onMouseLeave = change picture back to original
 
 also a way to make the pictures not as overwhelming would be to make them faded, and to animate them to fly in rather than abruptly change
+
+Also, each li could have a video that plays of like a pokemon that interacts with the word. **Charzard stands up and shoots fire at the home li which catches fire and falls to the bottom of the div in ashes.
+
 */
 
 const Menu: FC<Props> = ({ slideLeft }) => {
