@@ -63,22 +63,21 @@ I have built a few portfolio's, but I wanted one that really showed my skills as
 
 ## Time spent && Daily Logs
 May 3, 2022:
--
- - Initial Setup: 30 min
+ * Initial Setup: 30 min
+
 May 4, 2022:
--
- - MP-10 completed: 2 h 40 min
+* MP-10 completed: 2 h 40 min
+
 May 5, 2022:
--
- - MP-25 in-progress: 1 h 10 min (Ant Design && Tailwind not style friendly)
+* MP-25 in-progress: 1 h 10 min (Ant Design && Tailwind not style friendly)
+
 May 6, 2022: 
--
- - MP-25 in-progress: 2 h (Committed to building project in Tailwind, no Ant-Design, no SASS) 
- - MP-25 completed: 2 h (Playing with animation!)
+* MP-25 in-progress: 2 h (Committed to building project in Tailwind, no Ant-Design, no SASS) 
+* MP-25 completed: 2 h (Playing with animation!)
+
 May 9, 2022:
--
- - MP-6 in-progress: 2 h (Stacking css elements)
+* MP-6 in-progress: 2 h (Stacking css elements)
+
 May 10, 2022: 
--
- - MP-25 bug-completed: 2 h
- - MP-6 in-progress: 3 h (finished mobile view)
+* MP-25 bug-completed: 2 h
+* MP-6 in-progress: 3 h (finished mobile view)
