@@ -3,10 +3,12 @@ import { setNavbar } from '../actions/navbar';
 
 export interface State {
   isOpen: boolean;
+  isNew: boolean;
 }
 
 const initialState: State = {
   isOpen: false,
+  isNew: true,
 };
 
 export const navbarReducer = createReducer(initialState, (builder) => {
@@ -15,5 +17,6 @@ export const navbarReducer = createReducer(initialState, (builder) => {
   builder.addCase(setNavbar, (state, { payload }) => ({
     ...state,
     isOpen: payload,
+    isNew: false,
   }));
 });
