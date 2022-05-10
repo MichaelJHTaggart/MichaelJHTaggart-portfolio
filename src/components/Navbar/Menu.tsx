@@ -1,7 +1,7 @@
 import { FC, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setNavbar } from '../../store/actions/navbar';
-import { selectNavbarState } from '../../store/selectors/navbar';
+// import { selectNavbarState } from '../../store/selectors/navbar';
 
 interface Props {
   slideLeft: string;
@@ -12,20 +12,15 @@ const Menu: FC<Props> = ({ slideLeft }) => {
     'lg:bg-[url(https://source.unsplash.com/random/800x600)]'
   );
   const dispatch = useDispatch();
-  const { isOpen } = useSelector(selectNavbarState);
 
- //TODO: When authentication is complete check if user is signed in and show alternative routes depending on that.
+  //TODO: When authentication is complete check if user is signed in and show alternative routes depending on that.
 
-  //TODO: The menu does not add to the DOM
-  //TODO: The menu should not close on initial load
-  //TODO: Make it so that the Menu reaches to the end of the page.
+ 
   //TODO: The background is dark when menu is open
-  
-
 
   return (
     <div
-      className={`absolute ${image} bg-cover right-0 top-15 min-h-full w-4/6 lg:w-2/5 bg-gradient-to-tr from-violet-300 to-fuchsia-300 to-blue-300 hover:login-bg p-12 ${slideLeft} z-50`}
+      className={`absolute ${image} bg-cover min-h-[93.6%] right-0 top-15 min-h-0 w-4/6 lg:w-2/5 bg-gradient-to-tr from-violet-300 to-fuchsia-300 to-blue-300 hover:login-bg p-12 ${slideLeft} z-50`}
     >
       <ul className="text-white ">
         <li
