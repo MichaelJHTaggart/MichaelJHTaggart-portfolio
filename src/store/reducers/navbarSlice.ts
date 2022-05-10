@@ -10,8 +10,8 @@ const initialState: State = {
 };
 
 export const navbarReducer = createReducer(initialState, (builder) => {
- //? What exactly is payload doing inside curlies? *Object destructuring?
- //? What does putting the parenthesis around our curly braces do?
+  //? What exactly is payload doing inside curlies? *Object destructuring?
+  //? What does putting the parenthesis around our curly braces do?
   builder.addCase(setNavbar, (state, { payload }) => ({
     ...state,
     isOpen: payload,

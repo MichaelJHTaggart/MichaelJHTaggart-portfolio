@@ -5,7 +5,7 @@ import { selectNavbarState } from '../../store/selectors/navbar';
 
 export const Navbar = () => {
   const dispatch = useDispatch();
-  const {isOpen} = useSelector(selectNavbarState)
+  const { isOpen } = useSelector(selectNavbarState);
   return (
     <div className="flex shadow-md justify-around items-center">
       <img

@@ -7,18 +7,6 @@ interface Props {
   slideLeft: string;
 }
 
-/*
-!Currently only for large screens
-
-onMouseEnter = change picture to this thingy
-onMouseLeave = change picture back to original
-
-also a way to make the pictures not as overwhelming would be to make them faded, and to animate them to fly in rather than abruptly change
-
-Also, each li could have a video that plays of like a pokemon that interacts with the word. **Charzard stands up and shoots fire at the home li which catches fire and falls to the bottom of the div in ashes.
-
-*/
-
 const Menu: FC<Props> = ({ slideLeft }) => {
   const [image, setImage] = useState(
     'lg:bg-[url(https://source.unsplash.com/random/800x600)]'
@@ -26,13 +14,18 @@ const Menu: FC<Props> = ({ slideLeft }) => {
   const dispatch = useDispatch();
   const { isOpen } = useSelector(selectNavbarState);
 
-  // When authentication is complete check if user is signed in and show alternative routes depending on that.
+ //TODO: When authentication is complete check if user is signed in and show alternative routes depending on that.
 
-  //Every hover changes the background picture
+  //TODO: The menu does not add to the DOM
+  //TODO: The menu should not close on initial load
+  //TODO: Make it so that the Menu reaches to the end of the page.
+  //TODO: The background is dark when menu is open
+  
+
 
   return (
     <div
-      className={`absolute ${image} bg-cover right-0 top-15 min-h-full w-4/6 lg:w-2/5 bg-gradient-to-tr from-violet-300 to-fuchsia-300 to-blue-300 hover:login-bg p-12 ${slideLeft}`}
+      className={`absolute ${image} bg-cover right-0 top-15 min-h-full w-4/6 lg:w-2/5 bg-gradient-to-tr from-violet-300 to-fuchsia-300 to-blue-300 hover:login-bg p-12 ${slideLeft} z-50`}
     >
       <ul className="text-white ">
         <li
