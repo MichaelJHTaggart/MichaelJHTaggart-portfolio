@@ -7,7 +7,7 @@ export const Navbar = () => {
   const dispatch = useDispatch();
   const { isOpen } = useSelector(selectNavbarState);
   return (
-    <div className="flex shadow-md justify-around items-center">
+    <div className="bg-white flex shadow-md justify-around items-center">
       <img
         src="/logo192.png"
         className="shrink w-14 h-14 rounded-full transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl"

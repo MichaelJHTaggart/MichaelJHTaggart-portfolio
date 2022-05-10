@@ -74,3 +74,6 @@ I have built a few portfolio's, but I wanted one that really showed my skills as
 - May 9, 2022:
  - MP-6 in-progress: 2 h (Stacking css elements)
 - May 10, 2022: 
+ - MP-25 bug-completed: 2 h
+ - MP-6 in-progress: 3 h (finished mobile view)
+ 
