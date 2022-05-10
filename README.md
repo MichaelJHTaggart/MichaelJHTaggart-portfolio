@@ -42,7 +42,9 @@ I have built a few portfolio's, but I wanted one that really showed my skills as
 - May 3, 2022:
  - Initial Setup: 30 min
 - May 4, 2022:
- - MP-10 completed: 2 h 40 min -
+ - 
+MP-10 completed: 2 h 40 min
+ -
 - May 5, 2022:
  - MP-25 in-progress: 1 h 10 min (Ant Design && Tailwind not style friendly)
 - May 6, 2022: 
